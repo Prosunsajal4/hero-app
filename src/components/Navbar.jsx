@@ -20,7 +20,7 @@ export default function Navbar() {
 
         <div className="flex items-center gap-6 text-sm">
           <a
-            href="#"
+            href="/"
             className="text-purple-600 font-medium active:bg-purple-700"
           >
             Home

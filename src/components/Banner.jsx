@@ -30,14 +30,14 @@ export default function Banner() {
 
         <div className="flex justify-center gap-4 mb-8">
           <a
-            href="#"
+            href="https://play.google.com"
             className="flex items-center gap-2 border border-gray-300 rounded-lg px-4 py-2 hover:bg-gray-100 transition"
           >
             <FaGooglePlay size={18} className="text-green-500" />
             <span className="font-medium">Google Play</span>
           </a>
           <a
-            href="#"
+            href="https://www.apple.com/app-store/"
             className="flex items-center gap-2 border border-gray-300 rounded-lg px-4 py-2 hover:bg-gray-100 transition"
           >
             <FaApple size={18} className="text-black" />
@@ -109,9 +109,11 @@ export default function Banner() {
         )}
       </div>
       <div className="w-full flex justify-center mt-0 pb-8">
-        <button className="text-sm text-white cursor-pointer hover:from-purple-600 hover:to-pink-500 border-blue-500 px-4 py-2 rounded-sm bg-gradient-to-r from-blue-600 to-purple-600 flex items-center gap-2">
-          Show All
-        </button>
+        <a href="/Apps">
+          <button className="text-sm text-white cursor-pointer hover:from-purple-600 hover:to-pink-500 border-blue-500 px-4 py-2 rounded-sm bg-gradient-to-r from-blue-600 to-purple-600 flex items-center gap-2">
+            Show All
+          </button>
+        </a>
       </div>
     </section>
   );
