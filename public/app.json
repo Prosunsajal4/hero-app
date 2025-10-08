@@ -1,0 +1,218 @@
+[
+  {
+    "id": 1,
+    "image": "https://cdn-icons-png.flaticon.com/512/888/888879.png",
+    "title": "TaskFlow - Smart Productivity",
+    "companyName": "HERO.IO Labs",
+    "description": "TaskFlow helps you organize your daily tasks with AI-powered recommendations, smart reminders, and seamless calendar integration. Designed for busy professionals who want clarity and control.",
+    "size": "52MB",
+    "reviews": "23.8K",
+    "ratingAvg": 4.7,
+    "downloads": "5.6M",
+    "ratings": [
+      { "name": "1 star", "count": 540 },
+      { "name": "2 star", "count": 720 },
+      { "name": "3 star", "count": 2100 },
+      { "name": "4 star", "count": 6800 },
+      { "name": "5 star", "count": 13700 }
+    ]
+  },
+  {
+    "id": 2,
+    "image": "https://cdn-icons-png.flaticon.com/512/888/888857.png",
+    "title": "FitTrack Pro",
+    "companyName": "HERO.IO Health",
+    "description": "Track workouts, monitor sleep, and analyze calories in one place. FitTrack Pro uses your data to suggest personalized fitness goals that actually work for your lifestyle.",
+    "size": "89MB",
+    "reviews": "19.8K",
+    "ratingAvg": 4.6,
+    "downloads": "4.2M",
+    "ratings": [
+      { "name": "1 star", "count": 620 },
+      { "name": "2 star", "count": 910 },
+      { "name": "3 star", "count": 1950 },
+      { "name": "4 star", "count": 6100 },
+      { "name": "5 star", "count": 11120 }
+    ]
+  },
+  {
+    "id": 3,
+    "image": "https://cdn-icons-png.flaticon.com/512/888/888841.png",
+    "title": "LearnMate - Study Assistant",
+    "companyName": "HERO.IO Education",
+    "description": "LearnMate transforms the way students study by providing curated notes, flashcards, and AI tutors for every topic. Perfect for high school and college learners.",
+    "size": "75MB",
+    "reviews": "31.2K",
+    "ratingAvg": 4.8,
+    "downloads": "8M",
+    "ratings": [
+      { "name": "1 star", "count": 480 },
+      { "name": "2 star", "count": 760 },
+      { "name": "3 star", "count": 2000 },
+      { "name": "4 star", "count": 7300 },
+      { "name": "5 star", "count": 20660 }
+    ]
+  },
+  {
+    "id": 4,
+    "image": "https://cdn-icons-png.flaticon.com/512/888/888840.png",
+    "title": "Musicly - Stream & Discover",
+    "companyName": "HERO.IO Entertainment",
+    "description": "Stream unlimited songs, create custom playlists, and discover trending artists. Musicly gives you personalized recommendations based on your listening mood.",
+    "size": "102MB",
+    "reviews": "58.4K",
+    "ratingAvg": 4.4,
+    "downloads": "15M",
+    "ratings": [
+      { "name": "1 star", "count": 2700 },
+      { "name": "2 star", "count": 3400 },
+      { "name": "3 star", "count": 7200 },
+      { "name": "4 star", "count": 14500 },
+      { "name": "5 star", "count": 30600 }
+    ]
+  },
+  {
+    "id": 5,
+    "image": "https://cdn-icons-png.flaticon.com/512/888/888826.png",
+    "title": "FinanceGo - Expense Tracker",
+    "companyName": "HERO.IO Finance",
+    "description": "Take control of your money with FinanceGo. Track spending, set budgets, and receive smart alerts when you’re overspending. Secure, private, and easy to use.",
+    "size": "61MB",
+    "reviews": "12.8K",
+    "ratingAvg": 4.5,
+    "downloads": "2.7M",
+    "ratings": [
+      { "name": "1 star", "count": 320 },
+      { "name": "2 star", "count": 530 },
+      { "name": "3 star", "count": 1220 },
+      { "name": "4 star", "count": 4100 },
+      { "name": "5 star", "count": 6630 }
+    ]
+  },
+  {
+    "id": 6,
+    "image": "https://cdn-icons-png.flaticon.com/512/888/888843.png",
+    "title": "CookWise - AI Recipe Maker",
+    "companyName": "HERO.IO Kitchen",
+    "description": "Discover new dishes with CookWise! Get recipe suggestions based on your ingredients and preferences. Step-by-step cooking instructions with nutrition info included.",
+    "size": "95MB",
+    "reviews": "17.6K",
+    "ratingAvg": 4.3,
+    "downloads": "3.8M",
+    "ratings": [
+      { "name": "1 star", "count": 780 },
+      { "name": "2 star", "count": 940 },
+      { "name": "3 star", "count": 2100 },
+      { "name": "4 star", "count": 5400 },
+      { "name": "5 star", "count": 8380 }
+    ]
+  },
+  {
+    "id": 7,
+    "image": "https://cdn-icons-png.flaticon.com/512/888/888855.png",
+    "title": "Langify - Learn Any Language",
+    "companyName": "HERO.IO EdTech",
+    "description": "Langify uses AI-based conversational learning to teach you new languages faster. Speak with an AI tutor, complete daily challenges, and monitor progress easily.",
+    "size": "88MB",
+    "reviews": "29.8K",
+    "ratingAvg": 4.9,
+    "downloads": "9.6M",
+    "ratings": [
+      { "name": "1 star", "count": 420 },
+      { "name": "2 star", "count": 680 },
+      { "name": "3 star", "count": 1600 },
+      { "name": "4 star", "count": 6000 },
+      { "name": "5 star", "count": 21100 }
+    ]
+  },
+  {
+    "id": 8,
+    "image": "https://cdn-icons-png.flaticon.com/512/888/888827.png",
+    "title": "MediX - Health Companion",
+    "companyName": "HERO.IO Health",
+    "description": "Monitor your health metrics, book doctor appointments, and receive personalized wellness insights. MediX ensures your data stays secure and private.",
+    "size": "104MB",
+    "reviews": "15.6K",
+    "ratingAvg": 4.2,
+    "downloads": "2.9M",
+    "ratings": [
+      { "name": "1 star", "count": 900 },
+      { "name": "2 star", "count": 1200 },
+      { "name": "3 star", "count": 2800 },
+      { "name": "4 star", "count": 5200 },
+      { "name": "5 star", "count": 5500 }
+    ]
+  },
+  {
+    "id": 9,
+    "image": "https://cdn-icons-png.flaticon.com/512/888/888848.png",
+    "title": "Tourista - Travel Smarter",
+    "companyName": "HERO.IO Travel",
+    "description": "Explore destinations, find local experiences, and book hotels effortlessly. Tourista combines travel insights with powerful planning tools.",
+    "size": "73MB",
+    "reviews": "18.4K",
+    "ratingAvg": 4.6,
+    "downloads": "4.8M",
+    "ratings": [
+      { "name": "1 star", "count": 650 },
+      { "name": "2 star", "count": 880 },
+      { "name": "3 star", "count": 2100 },
+      { "name": "4 star", "count": 5600 },
+      { "name": "5 star", "count": 9170 }
+    ]
+  },
+  {
+    "id": 10,
+    "image": "https://cdn-icons-png.flaticon.com/512/888/888836.png",
+    "title": "ChatPlus - AI Messaging",
+    "companyName": "HERO.IO AI",
+    "description": "ChatPlus is a next-gen messenger that combines instant chat with AI-assisted summaries, voice translation, and smart replies for productive communication.",
+    "size": "110MB",
+    "reviews": "46.2K",
+    "ratingAvg": 4.8,
+    "downloads": "12M",
+    "ratings": [
+      { "name": "1 star", "count": 1000 },
+      { "name": "2 star", "count": 1300 },
+      { "name": "3 star", "count": 2900 },
+      { "name": "4 star", "count": 8700 },
+      { "name": "5 star", "count": 32300 }
+    ]
+  },
+  {
+    "id": 11,
+    "image": "https://cdn-icons-png.flaticon.com/512/888/888835.png",
+    "title": "PhotoGen - AI Photo Studio",
+    "companyName": "HERO.IO Media",
+    "description": "Transform ordinary photos into stunning art pieces with AI filters, lighting correction, and background enhancement. Ideal for photographers and creators.",
+    "size": "97MB",
+    "reviews": "33.2K",
+    "ratingAvg": 4.5,
+    "downloads": "8.9M",
+    "ratings": [
+      { "name": "1 star", "count": 1700 },
+      { "name": "2 star", "count": 2300 },
+      { "name": "3 star", "count": 4900 },
+      { "name": "4 star", "count": 10100 },
+      { "name": "5 star", "count": 14200 }
+    ]
+  },
+  {
+    "id": 12,
+    "image": "https://cdn-icons-png.flaticon.com/512/888/888849.png",
+    "title": "WeatherX - Smart Forecast",
+    "companyName": "HERO.IO Climate",
+    "description": "WeatherX delivers hyper-local weather forecasts, real-time storm tracking, and smart alerts for better day planning — powered by AI climate models.",
+    "size": "64MB",
+    "reviews": "12.6K",
+    "ratingAvg": 4.1,
+    "downloads": "3.5M",
+    "ratings": [
+      { "name": "1 star", "count": 800 },
+      { "name": "2 star", "count": 1100 },
+      { "name": "3 star", "count": 2400 },
+      { "name": "4 star", "count": 4700 },
+      { "name": "5 star", "count": 3600 }
+    ]
+  }
+]
