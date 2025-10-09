@@ -15,14 +15,7 @@ export const routes = createBrowserRouter([
         index: true,
         path: "/",
         element: <Banner></Banner>,
-        loader: async () => {
-          const storedApps = localStorage.getItem("allApps");
-          if (storedApps) return JSON.parse(storedApps);
-          const res = await fetch("/data/apps.json");
-          const data = await res.json();
-          localStorage.setItem("allApps", JSON.stringify(data));
-          return data;
-        },
+        loader: () => fetch("app.json"),
       },
     ],
   },
@@ -31,16 +24,9 @@ export const routes = createBrowserRouter([
     element: <ErrorElement />,
   },
   {
-    path: "/apps",
-    element: <Apps />,
-    loader: async () => {
-      const storedApps = localStorage.getItem("allApps");
-      if (storedApps) return JSON.parse(storedApps);
-      const res = await fetch("/data/apps.json");
-      const data = await res.json();
-      localStorage.setItem("allApps", JSON.stringify(data));
-      return data;
-    },
+    path: "/Apps",
+    element: <Apps></Apps>,
+    loader: () => fetch("app.json"),
   },
   {
     path: "/app/:id",
