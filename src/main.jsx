@@ -4,9 +4,13 @@ import "./index.css";
 import "./App.css";
 import { RouterProvider } from "react-router";
 import { routes } from "./Routes/Routes.jsx";
+import { Spinner } from "./components/Spinner.jsx";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <RouterProvider router={routes} />
+    <RouterProvider
+      router={routes}
+      fallbackElement={<Spinner text="Loading..." />}
+    />
   </StrictMode>
 );

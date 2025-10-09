@@ -1,9 +1,9 @@
-import React from "react";
+import { NavLink } from "react-router-dom";
 import { FaGithub } from "react-icons/fa";
 
 export default function Navbar() {
   return (
-    <nav className="w-full bg-white shadow-sm border-b border-gray-100 ">
+    <nav className="w-full bg-white shadow-sm border-b border-gray-100">
       <div className="max-w-7xl mx-auto px-6 py-3 flex flex-col md:flex-row items-center md:justify-between gap-3">
         <div className="flex items-center gap-2 cursor-pointer">
           <img
@@ -19,24 +19,39 @@ export default function Navbar() {
         </div>
 
         <div className="flex items-center gap-6 text-sm">
-          <a
-            href="/"
-            className="text-purple-600 font-medium active:bg-purple-700"
+          <NavLink
+            to="/"
+            end
+            className={({ isActive }) =>
+              isActive
+                ? "text-purple-600 font-medium border-b-2 border-purple-600 pb-1"
+                : "text-gray-700 hover:text-purple-600"
+            }
           >
             Home
-          </a>
-          <a
-            href="/Apps"
-            className="text-gray-700 hover:text-purple-600 active:bg-purple-700"
+          </NavLink>
+
+          <NavLink
+            to="/Apps"
+            className={({ isActive }) =>
+              isActive
+                ? "text-purple-600 font-medium border-b-2 border-purple-600 pb-1"
+                : "text-gray-700 hover:text-purple-600"
+            }
           >
             Apps
-          </a>
-          <a
-            href="/Installation"
-            className="text-gray-700 hover:text-purple-600 active:bg-purple-700"
+          </NavLink>
+
+          <NavLink
+            to="/Installation"
+            className={({ isActive }) =>
+              isActive
+                ? "text-purple-600 font-medium border-b-2 border-purple-600 pb-1"
+                : "text-gray-700 hover:text-purple-600"
+            }
           >
             Installation
-          </a>
+          </NavLink>
         </div>
 
         <a

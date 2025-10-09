@@ -8,13 +8,14 @@ import {
 } from "react-icons/fa";
 import { SiTrello } from "react-icons/si";
 import { MdCancel } from "react-icons/md";
-import { useLoaderData } from "react-router";
+import { useLoaderData, Link } from "react-router-dom";
 import { GoDownload } from "react-icons/go";
 import { FaStar } from "react-icons/fa";
+import AppLoader from "./AppLoader";
 
 export default function Banner() {
   const data = useLoaderData();
-  console.log(data);
+
   return (
     <section className="w-full pt-6 bg-white text-gray-800">
       <div className="max-w-7xl mx-auto px-6 text-center">
@@ -53,11 +54,11 @@ export default function Banner() {
         </div>
       </div>
 
-      <div className="bg-gradient-to-r from-blue-600 to-purple-600 text-white py-12 text-center">
+      <div className="bg-gradient-to-r from-blue-600 to-purple-600 text-white py-20 text-center">
         <h2 className="text-xl md:text-2xl font-semibold mb-8">
           Trusted By Millions, Built For You
         </h2>
-        <div className="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-3  gap-10">
+        <div className="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-10">
           <div>
             <h3 className="text-4xl font-bold">29.6M</h3>
             <p className="text-sm mt-1">Total Downloads</p>
@@ -81,33 +82,37 @@ export default function Banner() {
       <h1 className="text-lg text-gray-600 text-center mb-4">
         Explore all trending app on the market developed by us
       </h1>
-      <div className="p-10 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-6 container mx-auto  px-6 max-w-7xl">
-        {data.map(
-          (app) =>
-            app.ratingAvg > 4.4 && (
-              <div
-                key={app.id}
-                className="p-4 border text-black rounded-2xl bg-gray-100"
-              >
-                <img
-                  src={app.image}
-                  className="h-[250px] w-[200px]  mx-auto mb-4 p-8 bg-white rounded-2xl"
-                  alt=""
-                />
-                <h2 className="text-lg font-semibold">{app.title}</h2>
-                <div className="flex justify-between items-center mt-2">
-                  <p className="text-sm text-green-500 my-2 bg-gray-200 p-2 rounded-xl flex items-center gap-1">
-                    <GoDownload /> {app.downloads}
-                  </p>
-                  <p className="text-sm text-red-500 bg-gray-200 my-2 p-2 rounded-xl flex items-center gap-1">
-                    <FaStar />
-                    {app.ratingAvg}
-                  </p>
-                </div>
-              </div>
-            )
-        )}
-      </div>
+      <AppLoader>
+        <div className="p-10 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-6 container mx-auto px-6 max-w-7xl">
+          {data.map(
+            (app) =>
+              app.ratingAvg > 4.4 && (
+                <Link key={app.id} to={`/app/${app.id}`} className="block">
+                  <div
+                    className="p-4 border border-purple-600 text-black rounded-2xl bg-gray-100 
+                                            hover:shadow-xl hover:shadow-purple-200 transition duration-300 cursor-pointer h-full"
+                  >
+                    <img
+                      src={app.image}
+                      className="h-[250px] w-[200px] mx-auto mb-4 p-8 bg-white rounded-2xl"
+                      alt=""
+                    />
+                    <h2 className="text-lg font-semibold">{app.title}</h2>
+                    <div className="flex justify-between items-center mt-2">
+                      <p className="text-sm text-green-500 my-2 bg-gray-200 p-2 rounded-xl flex items-center gap-1">
+                        <GoDownload /> {app.downloads}
+                      </p>
+                      <p className="text-sm text-red-500 bg-gray-200 my-2 p-2 rounded-xl flex items-center gap-1">
+                        <FaStar />
+                        {app.ratingAvg}
+                      </p>
+                    </div>
+                  </div>
+                </Link>
+              )
+          )}
+        </div>
+      </AppLoader>
       <div className="w-full flex justify-center mt-0 pb-8">
         <a href="/Apps">
           <button className="text-sm text-white cursor-pointer hover:from-purple-600 hover:to-pink-500 border-blue-500 px-4 py-2 rounded-sm bg-gradient-to-r from-blue-600 to-purple-600 flex items-center gap-2">
